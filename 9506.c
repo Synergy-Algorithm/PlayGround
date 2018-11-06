@@ -7,7 +7,8 @@ int main(int argc, char *argv[]) {
 	int n, i, sum = 0;
 	
 	scanf("%d", &n);
-	while(n != -1){
+	while(n != -1)
+	{
 		for(i=1; i<n; i++)
 		{
 			if(n%i==0)
